@@ -1,10 +1,13 @@
-cities = [ ["London", "England", "Big Ben"], ["Paris", "France", "Tour Eiffel"] ]
+cities = [
+  ["London", "England", "Big Ben"],
+  ["Paris", "France", "Tour Eiffel"]
+]
 
-cities[1][2]  
+# p cities[1][2]
 
 
 cities = {
   "London" => { "country" => "England", "monument" => "Big Ben" },
   "Paris" => { "country" => "France", "monument" => "Tour Eiffel" }
 }
-cities["Paris"]["monument"] 
+p cities["Paris"]["monument"]
